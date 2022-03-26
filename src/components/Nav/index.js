@@ -1,27 +1,26 @@
 import React from 'react';
 
-function Nav() {
+function Nav(props) {
+    const { currentComp, setCurrentComp } = props;
+
     return (
-        <header>
-            <h2>
-                <a href='/'>
-                    <span role='img' aria-label="computer"> 💻</span>
-                </a>
-            </h2>
-            <nav>
-                <ul className="flex-row">
-                    <li className='mx-2'>
-                        <a href="#about">
-                            About Me
-                        </a>
-                    </li>
-                    <li>
-                        <span>Contact</span>
-                    </li>
-                </ul>
-            </nav>
-        </header>
-    );
+        <nav>
+            <ul className="flex-row mobile-view">
+                <li className={currentComp === "about" ? "mx-2 navActive" : "mx-2"}>
+                    <span onClick={() => setCurrentComp("about")}>About Me</span>
+                </li>
+                <li className={currentComp === "projects" ? "mx-2 navActive" : "mx-2"}>
+                    <span onClick={() => setCurrentComp("projects")}>Projects</span>
+                </li>
+                <li className={currentComp === "contact Me" ? "mx-2 navActive" : "mx-2"}>
+                    <span onClick={() => setCurrentComp("contact Me")}>Contact Me</span>
+                </li>
+                <li className={currentComp === "resume" ? "mx-2 navActive" : "mx-2"}>
+                    <span onClick={() => setCurrentComp("resume")}>Resume</span>
+                </li>
+            </ul>
+        </nav>
+    )
 }
 
 export default Nav;

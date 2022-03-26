@@ -17,8 +17,21 @@ body {
   color: white;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #ffff;
-  background: url('./assets/cover/background-7.jpeg');
+  background-color: #497573;
+  /* background: url('./assets/cover/background-7.jpeg'); */
+}
+
+img{
+  height: 600px;
+  opacity: 0.5;
+  width: 100px;
+  border-radius: 25px;
+}
+
+ul{
+  display: flex;
+  flex: row;
+  justify-content: space-evenly;
 }
 
 code {
