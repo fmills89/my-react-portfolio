@@ -25,7 +25,9 @@ body {
 ul{
   display: flex;
   flex: row;
-  justify-content: space-evenly;
+  text-decoration: none;
+  list-style-type: none;
+  justify-content: space-around;
 }
 
 .my-pic {

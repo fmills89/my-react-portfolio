@@ -4,8 +4,7 @@ import React from 'react';
 function About() {
     return (
        <div>
-           <p className='content is-medium'>Full Stack Developer</p>
-           <hr />
+           <p className='content is-medium'>About Me</p>
            <img className="my-pic" src={require('../../assets/pics/89666151.jpg')} alt="Forrest Mills"/>
            <p className='content mt-4'>
            👋 Hello world! My name is Forrest and I am a 

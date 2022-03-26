@@ -14,6 +14,7 @@ function Header(props) {
                     currentComp={currentComp}
                     setCurrentComp={setCurrentComp}
                 ></Nav>
+                 <hr />
             </div>
         </header>
     )
