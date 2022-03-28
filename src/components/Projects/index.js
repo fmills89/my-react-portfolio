@@ -13,8 +13,8 @@ function Project(props) {
     const repo = currentProject.repo;
     const live = currentProject.live;
  
-    return (
-        <Card class='m-2 p-1' style={{ width: '18rem' }}>
+    return ( 
+        <Card class='m-2 p-1'>
             <Card.Img
                 class='image is-200x200'
                 variant='top'
