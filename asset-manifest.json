@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-react-portfolio/static/css/main.5efb70d8.css",
-    "main.js": "/my-react-portfolio/static/js/main.321df799.js",
+    "main.css": "/my-react-portfolio/static/css/main.90a2ee48.css",
+    "main.js": "/my-react-portfolio/static/js/main.4ba5443c.js",
     "static/js/787.56d9acf9.chunk.js": "/my-react-portfolio/static/js/787.56d9acf9.chunk.js",
     "static/media/one-stop-shop-demo.gif": "/my-react-portfolio/static/media/one-stop-shop-demo.7adc175aa495bddc7db9.gif",
     "static/media/hero-bg.jpeg": "/my-react-portfolio/static/media/hero-bg.000e1b5ff4f0b912c97f.jpeg",
@@ -13,12 +13,12 @@
     "static/media/89666151.jpg": "/my-react-portfolio/static/media/89666151.a28996018a579bd00fab.jpg",
     "static/media/Forrests-Resume.pdf": "/my-react-portfolio/static/media/Forrests-Resume.f8973a0be85e94747751.pdf",
     "index.html": "/my-react-portfolio/index.html",
-    "main.5efb70d8.css.map": "/my-react-portfolio/static/css/main.5efb70d8.css.map",
-    "main.321df799.js.map": "/my-react-portfolio/static/js/main.321df799.js.map",
+    "main.90a2ee48.css.map": "/my-react-portfolio/static/css/main.90a2ee48.css.map",
+    "main.4ba5443c.js.map": "/my-react-portfolio/static/js/main.4ba5443c.js.map",
     "787.56d9acf9.chunk.js.map": "/my-react-portfolio/static/js/787.56d9acf9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5efb70d8.css",
-    "static/js/main.321df799.js"
+    "static/css/main.90a2ee48.css",
+    "static/js/main.4ba5443c.js"
   ]
 }
