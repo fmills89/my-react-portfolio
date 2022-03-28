@@ -20,14 +20,14 @@ function Resume() {
             <div className='column'>
                 <p className='content is-medium'>Skills</p>
                 <hr />
-                <ul>
-                    <li>HTML/CSS</li>
-                    <li>MERN Stack</li>
-                    <li>Javascript</li>
-                    <li>MySql</li>
-                    <li>Rest APIs</li>
-                    <li>MVC</li>
-                </ul>
+                    <ul>
+                        <li>HTML/CSS</li> 
+                        <li>MERN Stack</li>
+                        <li>Javascript</li>
+                        <li>MySql</li>
+                        <li>Rest APIs</li>
+                        <li>MVC</li>
+                    </ul>
             </div>
         </div>
     )

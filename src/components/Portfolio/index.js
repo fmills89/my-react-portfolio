@@ -23,12 +23,39 @@ function Portfolio()  {
         },
         {
             id: 2,
-            name: '',
-            description: '',
-            image: '',
-            build: '',
-            repo: '',
-            live: '',
+            name: 'Deep-Thoughts',
+            description: 'A social media app where users can create an accout, post their thoughts for others to see, and interact with other users throught their thoughts.',
+            image: 'deep-thoughts-image.png',
+            build: 'MongoDB, Express.js, React, Node.js',
+            repo: 'https://github.com/fmills89/deep-thoughts',
+            live: 'https://github.com/fmills89/deep-thoughts',
+        },
+        {
+            id: 3,
+            name: 'Note-Taker',
+            description: 'An application that can be used to write and save notes. This app uses an Express.js backend and will save and retrieve note date. Deployed on Heroku.',
+            image: 'note-taker-image.png',
+            build: 'Javascript, CSS, HTML, Node.js, Express.js',
+            repo: 'https://github.com/fmills89/express-note-taker',
+            live: 'https://ancient-retreat-03510.herokuapp.com/',
+        },
+        {
+            id: 4,
+            name: 'Weather-App',
+            description: 'An app that will remember your searche cities. It will show current and future conditons for that city.',
+            image: 'weather-app-image.png',
+            build: 'HTML, CSS, Javascript',
+            repo: 'https://github.com/fmills89/weather-app',
+            live: 'https://fmills89.github.io/weather-app/',
+        },
+        {
+            id: 5,
+            name: 'One-Stop-Shop',
+            description: 'An online grocery app where you can shop for groceries! This was a group effort was out first attempt at a full-stack application.',
+            image: 'one-stop-shop-demo.gif',
+            build: 'Javascript, Node.js, Express.js, MySQL, Heroku',
+            repo: 'https://github.com/brenhamp/one-stop-shop',
+            live: 'https://group1-one-stop-shop.herokuapp.com/',
         }
     ];
 
@@ -36,9 +63,10 @@ function Portfolio()  {
 return (
     <section>
         <div className="center">
-            <h1 className="page-header">Portfolio</h1>
+            <h1 className='content is-medium title is-5 p-4' >Portfolio</h1>
         </div>
         <div>
+        <div className='projects'>
             <ul className='flex-row mobile-view'>
                 <li className="padding">
                     <Project projects={projects[0]}></Project>
@@ -47,6 +75,27 @@ return (
                     <Project projects={projects[1]}></Project>
                 </li>
             </ul>
+        </div>
+        <div>
+            <ul className='flex-row mobile-view'>
+                <li className="p1">
+                    <Project projects={projects[2]}></Project>
+                </li>
+                <li className="p1">
+                    <Project projects={projects[3]}></Project>
+                </li>
+            </ul>
+        </div>    
+        <div>
+            <ul className='flex-row mobile-view'>
+                <li className="p1">
+                    <Project projects={projects[4]}></Project>
+                </li>
+                <li className="p1">
+                    <Project projects={projects[5]}></Project>
+                </li>
+            </ul>
+        </div>
         </div>
     </section>
 )

@@ -4,7 +4,7 @@ function Nav(props) {
     const { currentComp, setCurrentComp } = props;
 
     return (
-        <nav>
+        <nav className="nav">
             <ul className="flex-row mobile-view title is-5">
                 <li className={currentComp === "about" ? "mx-2 navActive" : "mx-2"}>
                     <span onClick={() => setCurrentComp("about")}>About Me</span>

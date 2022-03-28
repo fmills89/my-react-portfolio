@@ -46,6 +46,7 @@ function Project(props) {
                 </Card.Body>
             </div>
         </Card>
+
     );
 }
 
