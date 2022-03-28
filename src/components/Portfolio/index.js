@@ -28,7 +28,7 @@ function Portfolio()  {
             image: 'deep-thoughts-image.png',
             build: 'MongoDB, Express.js, React, Node.js',
             repo: 'https://github.com/fmills89/deep-thoughts',
-            live: 'https://github.com/fmills89/deep-thoughts',
+            live: 'https://young-cliffs-17322.herokuapp.com/',
         },
         {
             id: 3,
