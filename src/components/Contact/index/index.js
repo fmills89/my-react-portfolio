@@ -32,8 +32,10 @@ function Contactform () {
 
     return (
         <section>
-            <h1 className='title is-2'>Contact Me</h1>
+            <div class='has-text-centered'>
+            <h1 class='title is-2'>Contact Me</h1>
             <hr />
+            </div>
             <form id="contact-form">
                 <div class='field'>
                     <label className='control label' htmlFor="name">Name:</label>

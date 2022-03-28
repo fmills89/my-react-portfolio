@@ -2,23 +2,23 @@ import React from 'react';
 
 function Resume() {
     return (
-        <div className='columns'>
-            <div className='column'>
-                <p className='content is-medium'>Resume</p>
+        <div class='columns has-text-centered'>
+            <div class='column'>
+                <p class='content is-medium'>Resume</p>
                 < hr/>
 
                 <a
-                    className='button is-primary'
+                    class='button is-primary'
                     href={require('../../assets/files/Forrests-Resume.pdf')}
                     target='_blank' rel='noreferrer'>
-                        <span className='icon'>
-                            <i className='fas fa-download'></i>
+                        <span class='icon'>
+                            <i class='fas fa-download'></i>
                         </span>
                         <span>Download My Resume</span>
                     </a>
             </div>
-            <div className='column'>
-                <p className='content is-medium'>Skills</p>
+            <div class='column'>
+                <p class='content is-medium'>Skills</p>
                 <hr />
                     <ul>
                         <li>HTML/CSS</li> 
@@ -27,6 +27,7 @@ function Resume() {
                         <li>MySql</li>
                         <li>Rest APIs</li>
                         <li>MVC</li>
+                        <li>GraphQL</li>
                     </ul>
             </div>
         </div>

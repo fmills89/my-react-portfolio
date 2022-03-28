@@ -40,6 +40,14 @@ html {
 	opacity: 0.5;
 }
 
+nav li {
+  cursor: pointer;
+}
+
+.navActive {
+	color: greenyellow;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

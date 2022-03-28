@@ -61,9 +61,9 @@ function Portfolio()  {
 
 
 return (
-    <section class='list-item has-text-centered'>
+    <section class='has-text-centered'>
         <div className="center">
-            <h1 className='content is-medium title is-5 p-4' >Portfolio</h1>
+            <h1 className='content is-medium title is-2 m-2 p-4' >Portfolio</h1>
         </div>
         <div class='columns is-desktop is-justify-content-center is-flex-wrap-wrap is-flex-direction-row'>
             <div class='column'>
