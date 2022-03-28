@@ -31,13 +31,10 @@ html {
   font-size: 2rem;
 }
 
-
-
 .my-pic {
   clip-path: circle();
   width: 250px;
 }
-
 
 .logo:hover {
 	opacity: 0.5;
