@@ -61,41 +61,29 @@ function Portfolio()  {
 
 
 return (
-    <section>
+    <section class='list-item has-text-centered'>
         <div className="center">
             <h1 className='content is-medium title is-5 p-4' >Portfolio</h1>
         </div>
-        <div>
-        <div className='projects'>
-            <ul className='flex-row mobile-view'>
-                <li className="padding">
-                    <Project projects={projects[0]}></Project>
-                </li>
-                <li className="padding">
-                    <Project projects={projects[1]}></Project>
-                </li>
-            </ul>
-        </div>
-        <div>
-            <ul className='flex-row mobile-view'>
-                <li className="p1">
-                    <Project projects={projects[2]}></Project>
-                </li>
-                <li className="p1">
-                    <Project projects={projects[3]}></Project>
-                </li>
-            </ul>
-        </div>    
-        <div>
-            <ul className='flex-row mobile-view'>
-                <li className="p1">
-                    <Project projects={projects[4]}></Project>
-                </li>
-                <li className="p1">
-                    <Project projects={projects[5]}></Project>
-                </li>
-            </ul>
-        </div>
+        <div class='columns is-desktop is-justify-content-center is-flex-wrap-wrap is-flex-direction-row'>
+            <div class='column'>
+                <Project projects={projects[0]}></Project>
+            </div>
+            <div class='column'>
+                <Project projects={projects[1]}></Project>
+            </div>    
+            <div class='column'>
+                <Project projects={projects[2]}></Project>
+            </div>
+            <div class='column'>
+                <Project projects={projects[3]}></Project>
+            </div>
+            <div class='column'>
+                <Project projects={projects[4]}></Project>
+            </div>
+            <div class='column'>
+                <Project projects={projects[5]}></Project>
+            </div>
         </div>
     </section>
 )
