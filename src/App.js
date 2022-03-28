@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
 import Header from './components/Header';
 import About from './components/About';
-import Project from './components/Project';
+import Portfolio from './components/Portfolio';
 import Contactform from './components/Contact/index';
 import Resume from './components/Resume';
+import Footer from './components/Footer';
 
 function App() {
   const [currentComp, setCurrentComp] = useState("about");
@@ -13,7 +14,7 @@ function App() {
       case "about":
         return <About />;
       case "portfolio":
-        return <Project />;
+        return <Portfolio />;
       case "contact":
         return <Contactform />;
       case "resume":
@@ -34,7 +35,7 @@ function App() {
         </main>
       </div>
       <div>
-        <footer></footer>
+        <Footer></Footer>
       </div>
     </div>
 

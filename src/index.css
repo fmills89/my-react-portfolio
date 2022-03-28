@@ -15,11 +15,19 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  color: white;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #497573;
   /* background: url('./assets/cover/background-7.jpeg'); */
+}
+
+.footer {
+  background-color: #497573;
+}
+
+
+.my-name {
+  font-size: 2rem;
 }
 
 ul{
@@ -27,17 +35,23 @@ ul{
   flex: row;
   text-decoration: none;
   list-style-type: none;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .my-pic {
   clip-path: circle();
   width: 250px;
 }
+/* 
+.logo {
+	width: 50px;
+	height: 50px;
+	margin-bottom: 50px;
+	cursor: pointer;
+} */
 
-img{
-  height: auto;
-  max-width: 100%;
+.logo:hover {
+	opacity: 0.5;
 }
 
 code {

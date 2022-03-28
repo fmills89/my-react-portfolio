@@ -6,15 +6,14 @@ function Header(props) {
 
     return (
         <header>
-            <div>
-                <h2>Forrest Mills</h2>
+            <div className='my-name'>
+                <p className='title is-1 p-5'>Forrest Mills</p>
             </div>
             <div>
                 <Nav
                     currentComp={currentComp}
                     setCurrentComp={setCurrentComp}
                 ></Nav>
-                 <hr />
             </div>
         </header>
     )
