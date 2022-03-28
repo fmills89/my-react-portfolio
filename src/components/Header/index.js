@@ -6,8 +6,8 @@ function Header(props) {
 
     return (
         <header>
-            <div className='my-name'>
-                <p className='title is-1 p-5'>Forrest Mills</p>
+            <div className='my-name' class='content has-text-centered'>
+                <p className='title is-1 pt-5'>Forrest Mills</p>
             </div>
             <div>
                 <Nav

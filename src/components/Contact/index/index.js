@@ -32,26 +32,39 @@ function Contactform () {
 
     return (
         <section>
-            <h1>Contact Me</h1>
+            <h1 className='title is-2'>Contact Me</h1>
+            <hr />
             <form id="contact-form">
-                <div>
-                    <label htmlFor="name">Name:</label>
-                    <input type="text" defaultValue={name} onBlur={handleChange} name='name' />
+                <div class='field'>
+                    <label className='control label' htmlFor="name">Name:</label>
+                    <input className='input' type="text" defaultValue={name} onBlur={handleChange} name='Name' />
                 </div>
-                <div>
-                    <label htmlFor="email">Email:</label>
-                    <input type="email" defaultValue={email} onBlur={handleChange} name='email' />
+                <div class="field">
+                    <label class="label" htmlFor='email'>Email</label>
+                    <div class="control has-icons-left has-icons-right">
+                        <input class="input" type="email" defaultValue={email} onBlur={handleChange} name='Email:' />
+                        <span class="icon is-small is-left">
+                        <i class="fas fa-envelope"></i>
+                        </span>
+                    </div>
                 </div>
-                <div>
-                    <label htmlFor="message">Message:</label>
-                    <textarea name='message' defaultValue={message} onBlur={handleChange} rows='5' />
+                
+                <div class="field">
+                <label class="label" htmlFor="message">Message</label>
+                    <div class="control">
+                        <textarea class="textarea" name='Message' defaultValue={message} onBlur={handleChange} rows='5' />
+                    </div>
                 </div>
                 {errorMessage && (
                     <div>
                         <p className='error-text'>{errorMessage}</p>
                     </div>
                 )}
-                <button type='submit'>Submit</button>
+
+                <div class="control">
+                    <button type='submit' class="button is-link">Submit</button>
+                </div>
+
             </form>
         </section>
     )
