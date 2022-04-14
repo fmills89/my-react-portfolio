@@ -1,8 +1,5 @@
 import React, { useState } from 'react';
 import Card from 'react-bootstrap/Card';
-import { Row } from 'react-bootstrap';
-import { Col } from 'react-bootstrap';
-
 function Project(props) {
     const currentProject = useState(props)[0].projects;
 

@@ -5,12 +5,12 @@ function Portfolio()  {
     const projects = [ 
         {
             id: 0,
-            name: 'MERN Group App Here',
-            description: "MERN app description",
-            image: 'mern-stack-image.jpg',
+            name: 'PokeMon-Teams',
+            description: "A group effort and last project for my coding bootcamp. Using the MERN stack we created an app where users can sign up and save their team of pokemon.",
+            image: 'mern-group-image.png',
             build: 'HTML, CSS, React, Express.js, Apollo, MonogoDB',
-            repo: "https://github.com/fmills89",
-            live: 'https://github.com/fmills89'
+            repo: "https://github.com/fmills89/poke-teams-builder",
+            live: 'https://evening-mountain-59213.herokuapp.com/'
         },
         {
             id: 1,

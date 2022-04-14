@@ -38,13 +38,13 @@ function Contactform () {
             </div>
             <form id="contact-form">
                 <div class='field'>
-                    <label className='control label' htmlFor="name">Name:</label>
+                    <label className='control label' htmlFor="name">Name</label>
                     <input className='input' type="text" defaultValue={name} onBlur={handleChange} name='Name' />
                 </div>
                 <div class="field">
                     <label class="label" htmlFor='email'>Email</label>
                     <div class="control has-icons-left has-icons-right">
-                        <input class="input" type="email" defaultValue={email} onBlur={handleChange} name='Email:' />
+                        <input class="input" type="email" defaultValue={email} onBlur={handleChange} name='Email' />
                         <span class="icon is-small is-left">
                         <i class="fas fa-envelope"></i>
                         </span>
